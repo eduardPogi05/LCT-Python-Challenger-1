@@ -1,2 +1,8 @@
+Challenge 2
+
+Ask for the user’s name and display the output message
+“Hello [First Name] how are you today?”
+
+
 first_name = input("Please enter your name: ")
-print("Hello", first_name +',', "How are you today?")
+print(f"Hello {first_name} How are you today?")
