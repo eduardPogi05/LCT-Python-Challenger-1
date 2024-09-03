@@ -1,0 +1,4 @@
+name = input('What is your name? ')
+fav_language = input('What is your favorite Programming Language? ')
+print('Hello!', name)
+print('Let\'s learn', fav_language + '!')
