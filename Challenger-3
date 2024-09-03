@@ -1,4 +1,11 @@
+Challenge 3
+
+Write a code that asks the name of the user and his/her favorite programming language.
+
+Then, display, “Hello! [user]”
+“Let’s learn [favorite programming language] !”
+
+
 name = input('What is your name? ')
 fav_language = input('What is your favorite Programming Language? ')
-print('Hello!', name)
-print('Let\'s learn', fav_language + '!')
+print(f"Hello! {name} \nLet's learn {fav_language}!")
