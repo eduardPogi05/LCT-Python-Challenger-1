@@ -1,0 +1,36 @@
+Challenge 7
+Set the total to 0 to start with. While the total is 50 or less, ask the user to input a number. Add that number to the total and
+print the message
+
+“The total is… [total]”.
+
+Stop the loop when the total is 50 or over 50.
+
+
+
+
+
+
+
+
+# Initialize the total to 0
+total = 0
+
+# Print the initial message
+print("Let's add your numbers")
+
+# Start the loop
+while total <= 50:
+    # Ask the user to input a number
+    number = float(input("Add a number: "))
+
+    # Add the number to the total
+    total += number
+
+    # Check if the total has reached or exceeded 50
+    if total >= 50:
+        print(f"The total is {total}")
+        break
+
+    # Print the message with the current total
+    print(f"The total is {total}")
