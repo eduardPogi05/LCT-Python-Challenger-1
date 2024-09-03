@@ -1,3 +1,13 @@
+Challenge 4
+
+Ask for the user’s first name, then ask for their surname, then display
+an output message
+
+“Hello [first name] [surname]” and in the next line
+“Welcome to programming!”
+
+
+
 name = input("Please enter your first name: ")
 last_name = input("Please enter your surname: ")
-print("Hello", name, last_name, "\nWelcome to Programming!")
+print(f"Hello {name} {last_name} \nWelcome to Programming!")
